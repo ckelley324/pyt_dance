@@ -1,0 +1,170 @@
+html {
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-nav .navbar-nav > .active > a:hover {
+  background-color: #000000;
+  color: #f5a623;
+}
+
+.navbar-fixed-top {
+  background-color: #000000;
+  height: 3.875rem;
+}
+
+.navbar li {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar ul {
+  margin-right: 3.4375rem;
+}
+
+.navbar-fixed-top img {
+  margin: auto auto auto 3.6875rem;
+}
+
+.jumbotron {
+  border-bottom: solid 10px #794ae2;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+  top: 3.875rem;
+  flex-direction: row;
+  width: 100%;
+}
+
+.jumbotron img {
+  width: 50%;
+
+}
+
+.jumbotron h1 {
+  color: #794ae2;
+  font-size: 3.125rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.jumbotron p {
+  color: #666666;
+}
+
+.item {
+  width: 50%;
+  margin: auto;
+}
+
+.icon h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #794ae2;
+  text-align: center;
+}
+
+.icon .row {
+  margin: 4rem 19%;
+}
+
+.icon p {
+  font-size: 1.5rem;
+  color: #666666;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.icon img {
+  height: 9.375rem;
+  width: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.ballet img, .heart img {
+  margin: auto 5rem auto auto;
+  height: 9.375rem;
+}
+
+.ballet, .heart {
+  background-color: #f2f2f2;
+}
+
+.clock img, .chrysler img {
+  margin: auto auto auto 5rem;
+  height: 9.375rem;
+}
+
+.clock, .chrysler {
+  background-color: #ffffff;
+}
+
+.map {
+  height: 31.25rem;
+  background-image: url('../images/map.jpg');
+  position: relative;
+}
+
+.address {
+  background-color: rgba(120, 73, 225, 0.9);
+  height: 20rem;
+  width: 25rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #ffffff;
+}
+
+.address h3 {
+  margin: 3rem auto 1.25rem 2rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.address p {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-left: 2rem;
+}
+
+.bottom {
+  height: 15rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: .875rem;
+  letter-spacing: 0.7px;
+}
+
+.bottom p {
+  margin-top: 5rem;
+}
+
+.icons {
+  width: 9.375rem;
+  color: #ffffff;
+  margin: 1.56rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-image: url('../images/party-photo.png');
+  background-size: cover;
+}
+
+.footer {
+  background-color: rgba(178, 76, 178, 0.2);
+  margin: auto;
+  border: none;
+  height: 5.125rem;
+}
+
+.footer span {
+  float: right;
+  position: relative;
+  top: -2.75rem;
+}
