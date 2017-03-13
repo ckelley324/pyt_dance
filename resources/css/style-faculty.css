@@ -1,0 +1,133 @@
+html {
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-nav .navbar-nav > .active > a:hover {
+  background-color: #000000;
+  color: #f5a623;
+}
+
+.navbar-fixed-top {
+  background-color: #000000;
+  height: 3.875rem;
+}
+
+#mobile {
+  display: none;
+}
+
+.navbar li {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar ul {
+  margin-right: 3.4375rem;
+}
+
+.navbar-fixed-top img {
+  margin: auto auto auto 3.6875rem;
+}
+
+.jumbotron {
+  background-image: url('../images/faculty-photo.png');
+  background-size: cover;
+  color: #999999;
+  border-bottom: solid 10px #8a54ff;
+  text-align: center;
+  position: relative;
+  top: 3.875rem;
+  height: 31.25rem;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+  font-size: 3.125rem;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
+}
+
+.jumbotron p {
+  width: 50%;
+  margin: auto;
+}
+
+.faculty {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5.625rem 7.5rem 11.25rem 7.5rem;
+}
+
+.each {
+  width: 16.875rem;
+  padding-bottom: 6.25rem;
+  text-align: center;
+  margin-right: 4.25rem;
+}
+
+.each h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+  margin-top: 1.25rem;
+  margin-bottom: .625rem;
+}
+
+.each span {
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding-bottom: 0.625rem;
+}
+
+.each p {
+  line-height: 1.5;
+}
+
+.bottom {
+  height: 15rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: .875rem;
+  letter-spacing: 0.7px;
+}
+
+.bottom p {
+  margin-top: 5rem;
+}
+
+.icons {
+  width: 9.375rem;
+  color: #ffffff;
+  margin: 1.56rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-image: url('../images/party-photo.png');
+  background-size: cover;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgba(178, 76, 178, 0.2);
+  margin: auto;
+  border: none;
+  height: 5.125rem;
+}
+
+.footer span {
+  float: right;
+  position: relative;
+  top: -2.75rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .faculty {
+  
+  }
+}
