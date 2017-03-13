@@ -13,6 +13,10 @@ html {
   height: 3.875rem;
 }
 
+#mobile {
+  display: none;
+}
+
 .navbar li {
   font-family: "Open Sans";
   font-size: 1rem;
@@ -66,8 +70,12 @@ html {
   text-align: center;
 }
 
-.icon .row {
-  margin: 4rem 19%;
+.icon {
+  margin: auto 19%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .icon p {
@@ -80,9 +88,7 @@ html {
 .icon img {
   height: 9.375rem;
   width: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(50%);
+  margin: auto;
 }
 
 .ballet img, .heart img {
@@ -167,4 +173,167 @@ footer {
   float: right;
   position: relative;
   top: -2.75rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .jumbotron {
+    display: block;
+  }
+
+  .jumbotron img {
+    width: 100%;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .item h1 {
+    font-size: 1.25rem;
+  }
+
+  .item p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .icon {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon h2 {
+    font-size: 1.75rem;
+  }
+
+  .icon p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .icon img {
+    height: 6.25rem;
+    margin: 1.875rem auto;
+  }
+
+  .chrysler, .clock {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .address {
+    width: 75%;
+  }
+
+  .icons {
+    width: 5.4375rem;
+    font-size: 1em;
+    }
+  .bottom {
+    height: 8.75rem;
+    font-size: .625rem;
+    letter-spacing: 0.5px;
+  }
+
+  .footer {
+    height: 3.5rem;
+  }
+
+  .footer span {
+    display: none;
+  }
+  .footer .navbar-brand {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+.navbar-brand >  .normal {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  .navbar li {
+    width: 50px;
+    padding: 0;
+  }
+
+  .jumbotron {
+    display: block;
+  }
+
+  .jumbotron img {
+    width: 100%;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .item h1 {
+    font-size: 1.25rem;
+  }
+
+  .item p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .icon {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon h2 {
+    font-size: 1.75rem;
+  }
+
+  .icon p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .icon img {
+    height: 6.25rem;
+    margin: 1.875rem auto;
+  }
+
+  .chrysler, .clock {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .address {
+    width: 75%;
+  }
+
+  .icons {
+    width: 5.4375rem;
+    font-size: 1em;
+    }
+  .bottom {
+    height: 8.75rem;
+    font-size: .625rem;
+    letter-spacing: 0.5px;
+  }
+
+  .footer {
+    height: 3.5rem;
+  }
+
+  .footer span {
+    display: none;
+  }
+  .footer .navbar-brand {
+    display: none;
+  }
 }
